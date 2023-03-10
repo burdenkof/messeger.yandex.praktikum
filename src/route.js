@@ -8,8 +8,7 @@ export const getPage = (url) => {
   switch (url) {
 
     case "#error-404": return getErrorPage()
-    case "#error-500": return getErrorPage(500, 'Internal server error', 'Something broke', 'We are already fixing')
-
+    case "#error-500": return getErrorPage(500, 'Something broke', 'We are already fixing')
     case "#login": return getLogin()
 
     case "#settings": return getSettings()
