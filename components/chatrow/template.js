@@ -1,4 +1,18 @@
 export const  chatRowTemplate =
-`<li>
-    <h1>{{item.name}}</h1>
-</li>`
+`<div class="chat-list_one-row">
+    <div class="chat-list_one-row_avatar" >
+        
+    </div>
+    <div class="chat-list_one-row_main-info"  >
+    <div class="chat-list_one-row_main-info_time">{{item.time}}</div>
+
+        <div class="chat-list_one-row_main-info_chat-name">{{item.name}}</div>
+        
+        <div class="chat-list_one-row_main-info_description">
+            <span class="chat-list_one-row_main-info_description_username">{{item.userName}}:&nbsp;</span>
+            <span class="chat-list_one-row_main-info_description_text">{{item.text}}</span>
+            
+        </div>
+        
+    </div>
+</div>`
