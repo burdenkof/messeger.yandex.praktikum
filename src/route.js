@@ -1,9 +1,15 @@
 import { getChatRow } from "../components/chatrow/chatrow";
 import { pagelist } from "../pages/pagelist/pagelist";
-import { getChatList } from "../components/chatlist/chatlist";
-
+import { getChatList } from "../pages/chatlist/chatlist";
+import { getLogin } from "../pages/login/login";
 export const getPage = (url) => {
   switch (url) {
+
+    case "#login":
+
+    return getLogin()
+
+
     case "#chatlist":
 
       let list = []; let messages = [];

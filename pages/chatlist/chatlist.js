@@ -1,6 +1,6 @@
 import { chatListTemplate } from "./template"
-import { getChatRow } from "../chatrow/chatrow"
-import { getMessageRow } from "../messagerow/messagerow"
+import { getChatRow } from "../../components/chatrow/chatrow"
+import { getMessageRow } from "../../components/messagerow/messagerow"
 
 export const getChatList = (items, messages) => {
 

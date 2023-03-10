@@ -3,7 +3,9 @@
 
 @import '../components/chatrow/chatrow.css';
 @import '../components/messagerow/messagerow.css';
-@import '../components/chatlist/chatlist.css';
+@import '../components/input/input.css';
+@import '../pages/chatlist/chatlist.css';
+@import '../pages/login/login.css';
 @import '../static/fonts/inter/inter.css'
 
 
@@ -19,9 +21,12 @@
 
 html{
     overflow: hidden;
+
 }
 
 .wrapper{
     width: 1920px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
- 
