@@ -1,11 +1,13 @@
-.chat-list_one-row{
+.chat-list_one-row {
     display: flex;
     border-radius: 15px;
     background: #EBF0F1;
     margin: 10px;
     padding: 10px;
     max-width: 513px;
-
+    overflow: hidden;
+    cursor:pointer;
+    
     .chat-list_one-row_avatar{
         border-radius: 200px;
         overflow: hidden;
@@ -21,16 +23,16 @@
         flex-grow:10;
         display: flex;
         flex-direction: column;
-                        
+        overflow: hidden;               
         .chat-list_one-row_main-info_chat-name{
-            font-size: 38px!important;
+            font-size: 34px!important;
             display:black
         }
         
         .chat-list_one-row_main-info_description{
             display:flex;
             align-items: flex-end;       
-
+            overflow: hidden;
             .chat-list_one-row_main-info_description_username{
                 color: #4685A9;
                 font-size: 14px;
@@ -51,4 +53,9 @@
         }
 
     }
+
+}
+
+.chat-list_one-row:hover {
+    background: #E9E9EC;
 }
