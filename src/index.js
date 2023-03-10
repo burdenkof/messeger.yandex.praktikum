@@ -12,5 +12,4 @@ async function changeHash() {
   root.innerHTML = html
 }
 
-(async () => {    await changeHash()  })()
-  
+(async () => { await changeHash() })()

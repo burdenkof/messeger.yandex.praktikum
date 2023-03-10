@@ -1,6 +1,8 @@
 import Handlebars from "handlebars";
 import { loginTemplate } from "./template.js";
-import { getinput } from "../../components/input/input.js";
+import { buttonTemplate } from "../../components/button/template.js";
+import { getinput } from "../../components/input/input.js"; 
+
 export function getLogin() {
 
     const template = Handlebars.compile(loginTemplate)
@@ -29,7 +31,21 @@ export function getLogin() {
     inputs.push(itemLogin)
     inputs.push(itemPassword)
 
+    const templateBtn = Handlebars.compile(buttonTemplate)
+
+    let btnSignIn = templateBtn({
+        name: 'Sign In',
+        id:'btn-sign-in', 
+        type:'submit',
+        onclick:`window.location.href='/#chatlist'`
+    })
+    let btnSignUp = templateBtn({
+        name: 'Sign Up',
+        id:'btn-sign-up', 
+        type:'button',
+        onclick:`window.location.href='/#register'`
+    })
 
 
-    return template({inputs: inputs})
+    return template({inputs: inputs, btnSignIn: btnSignIn, btnSignUp:btnSignUp})
 }

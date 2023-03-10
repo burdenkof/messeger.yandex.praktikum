@@ -4,6 +4,7 @@
 @import '../components/chatrow/chatrow.css';
 @import '../components/messagerow/messagerow.css';
 @import '../components/input/input.css';
+@import '../components/button/button.css';
 @import '../pages/chatlist/chatlist.css';
 @import '../pages/login/login.css';
 @import '../static/fonts/inter/inter.css'
@@ -20,7 +21,7 @@
 }
 
 html{
-    overflow: hidden;
+    /* overflow: hidden; */
 
 }
 
@@ -29,4 +30,11 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.logo-big{
+    background: url('/static/img/logo.png');
+    width: 510px;
+    height: 237px;
 }
