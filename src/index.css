@@ -9,6 +9,7 @@
 @import '../pages/login/login.css';
 @import '../static/fonts/inter/inter.css';
 @import '../pages/settings/settings.css';
+@import '../pages/errorpage/errorpage.css';
 
 *{
     box-sizing: content-box;

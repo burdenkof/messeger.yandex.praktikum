@@ -17,6 +17,12 @@ export const  pagelistTemplate =
      <nav>
         <a href="#change-password">Change password ></a>
     </nav>
+    <nav>
+         <a href="#error-404">Eror 404 ></a>
+    </nav>
+    <nav>
+        <a href="#error-500">Eror 500 ></a>
+    </nav>
 </div>
 
 `
