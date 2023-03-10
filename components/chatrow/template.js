@@ -10,7 +10,7 @@ export const  chatRowTemplate =
 
         <div class="chat-list_one-row_main-info_description">
             <span class="chat-list_one-row_main-info_description_username">{{item.userName}}:&nbsp;</span>
-            <div class="chat-list_one-row_main-info_description_text">{{item.text}}</div>
+            <div class="chat-list_one-row_main-info_description_text">{{item.lastText}}</div>
             
         </div>
         
