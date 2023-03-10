@@ -2,12 +2,17 @@ import { getChatRow } from "../components/chatrow/chatrow";
 import { pagelist } from "../pages/pagelist/pagelist";
 import { getChatList } from "../pages/chatlist/chatlist";
 import { getLogin } from "../pages/login/login";
+import { getSettings } from "../pages/settings/settings";
 export const getPage = (url) => {
   switch (url) {
 
     case "#login":
 
     return getLogin()
+
+    case "#settings": return getSettings()
+    case "#settings-edit": return getSettings('settings-edit')
+    case "#change-password": return getSettings('settings-edit')
 
 
     case "#chatlist":

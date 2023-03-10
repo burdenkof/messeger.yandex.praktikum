@@ -28,7 +28,7 @@
         border: 1px solid #3B0AFF;
         box-shadow: 1.94713px 1.94713px 1.94713px rgba(0, 0, 0, 0.25);
         border-radius: 14.6035px;
-        padding:15px;
+        padding:10px;
     }
     .form-control_error{
         color: #FF0A0A;
