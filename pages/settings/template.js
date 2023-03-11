@@ -46,7 +46,7 @@ export const  changePasswordTemplate =
     
 </div>
 
-<div class="pages-login  ">
+<div class="pages-login  pages-change-password">
     <h1 class="form-main-title">Change password</h1>
         {{#each inputs}}
             {{{html}}}

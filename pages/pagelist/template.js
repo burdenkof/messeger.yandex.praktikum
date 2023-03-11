@@ -6,6 +6,9 @@ export const  pagelistTemplate =
         <a href="#login">Login ></a>
     </nav>
     <nav>
+      <a href="#signup">Signup ></a>
+    </nav>
+    <nav>
         <a href="#chatlist">Chat list ></a>
     </nav>    
     <nav>

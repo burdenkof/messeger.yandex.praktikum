@@ -4,12 +4,14 @@ import { getChatList } from "../pages/chatlist/chatlist";
 import { getLogin } from "../pages/login/login";
 import { getSettings } from "../pages/settings/settings";
 import { getErrorPage } from "../pages/errorpage/errorpage";
+import { getSignup } from "../pages/signup/signup";
 export const getPage = (url) => {
   switch (url) {
 
     case "#error-404": return getErrorPage()
     case "#error-500": return getErrorPage(500, 'Something broke', 'We are already fixing')
     case "#login": return getLogin()
+    case "#signup": return getSignup()
 
     case "#settings": return getSettings()
     case "#settings-edit": return getSettings('settings-edit')

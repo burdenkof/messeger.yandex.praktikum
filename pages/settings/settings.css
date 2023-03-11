@@ -1,5 +1,8 @@
-.pages-edit-settings{
+.pages-edit-settings, .pages-change-password{
     height:auto;
+    .form-main-title{
+        font-size:34px;
+    }
 }
 
 .pages-settings{

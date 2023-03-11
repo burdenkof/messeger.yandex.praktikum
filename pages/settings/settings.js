@@ -36,7 +36,7 @@ export function getSettings(type = 'settings') {
             type: 'password'
         }
         itemCurrentPassword.html = getinput(itemCurrentPassword)
-        items.push(itemCurrentPassword)
+        inputs.push(itemCurrentPassword)
 
         let itemNewPassword = {
             name: 'new_password',
@@ -48,7 +48,7 @@ export function getSettings(type = 'settings') {
         }
         itemNewPassword.html = getinput(itemNewPassword)
 
-        items.push(itemNewPassword)
+        inputs.push(itemNewPassword)
 
         let itemNewPassword2 = {
             name: 'new_password2',
@@ -58,8 +58,8 @@ export function getSettings(type = 'settings') {
             error: 'Passwords must be equal',
             type: 'password'
         }
-        itemNewPassword.html = getinput(itemNewPassword)
-        items.push(itemNewPassword)
+        itemNewPassword2.html = getinput(itemNewPassword2)
+        inputs.push(itemNewPassword2)
     } else {
         // Имена полей для изменения информации о пользователе: first_name, second_name, display_name, login, email, phone;
         let itemFirstName = {
