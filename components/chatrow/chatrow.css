@@ -47,7 +47,7 @@
             }
         }
         .chat-list_one-row_main-info_time{
-            align-self: flexmargin-right: 55px;-end;
+            align-self: flex-end;
             margin-right: 55px;
             color: gray;
             font-size: 11px;

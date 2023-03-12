@@ -7,16 +7,16 @@
     aside{
         flex-grow:1;
         overflow-y:scroll;
+        flex-basis: max-content;
     }
-    main{
+    .chat-list_messages-wrapper {
         
         flex-grow:25;
-        min-height: 100%;
+        max-height: calc(100vh);
         display: flex;
         flex-direction: column;
-        overflow-y:scroll;
+
         flex-basis: min-content;
-        margin-bottom: 96px;
     }
     ul{
         padding: 0px;
@@ -26,18 +26,20 @@
         }
     }
     .chat-list_message-list{
+        flex-basis: min-content;
+        overflow-y:scroll;
         padding-left:15px;
         padding-right:15px;
+        max-height: calc(100vh);
     }
     .chat-list_send-input{
         display: flex;
         border-radius: 15px;
         background: #EBF0F1;
         padding: 35px;
-        position:absolute;
-        bottom:16px;
-        right:0;
-        width:calc(100vw - 665px);
-        
+        margin:10px;
+        margin-bottom: 15px;
+        margin-top: 0px;
+        box-shadow: -6.05287px -2.05287px 9.94713px #dadada;
     }
 }

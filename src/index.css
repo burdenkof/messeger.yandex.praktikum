@@ -1,4 +1,5 @@
 
+@import 'normalize.css';
 @import '../pages/pagelist/pagelist.css';
 
 @import '../components/chatrow/chatrow.css';
