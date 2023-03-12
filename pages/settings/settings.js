@@ -150,8 +150,8 @@ export function getSettings(type = 'settings') {
     let btnSave = templateBtn({
         name: 'Save',
         id: 'btn-save',
-        type: 'button',
-        onclick: `window.location.href='/#chatlist'`
+        type: 'submit',
+        onclick: ''
     })
 
 

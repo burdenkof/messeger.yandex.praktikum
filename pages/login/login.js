@@ -37,7 +37,7 @@ export function getLogin() {
         name: 'Sign In',
         id: 'btn-sign-in',
         type: 'submit',
-        onclick: `window.location.href='/#chatlist'`
+        onclick: ''
     })
     let btnSignUp = templateBtn({
         name: 'Sign Up',

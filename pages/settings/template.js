@@ -30,13 +30,15 @@ export const  settingsEditTemplate =
 </div>
 
 <div class="pages-login  pages-edit-settings">
-    <h1 class="form-main-title">Edit profile</h1>
-        {{#each inputs}}
-            {{{html}}}
-        {{/each}}
-    <div class="form-buttons inline">
-        {{{btnSave}}}
-    </div>
+    <form name="form1" action="/#settings" method="post">
+        <h1 class="form-main-title">Edit profile</h1>
+            {{#each inputs}}
+                {{{html}}}
+            {{/each}}
+        <div class="form-buttons inline">
+            {{{btnSave}}}
+        </div>
+    </form>
 </div>
 
 `
@@ -47,13 +49,15 @@ export const  changePasswordTemplate =
 </div>
 
 <div class="pages-login  pages-change-password">
-    <h1 class="form-main-title">Change password</h1>
-        {{#each inputs}}
-            {{{html}}}
-        {{/each}}
-    <div class="form-buttons inline">
-        {{{btnSave}}}
-    </div>
+    <form name="form1" action="/#settings" method="post">
+        <h1 class="form-main-title">Change password</h1>
+            {{#each inputs}}
+                {{{html}}}
+            {{/each}}
+        <div class="form-buttons inline">
+            {{{btnSave}}}
+        </div>
+    </form>
 </div>
 
 `
