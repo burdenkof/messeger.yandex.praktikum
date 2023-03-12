@@ -1,10 +1,10 @@
-import { getChatRow } from "../components/chatrow/chatrow";
-import { pagelist } from "../pages/pagelist/pagelist";
-import { getChatList } from "../pages/chatlist/chatlist";
-import { getLogin } from "../pages/login/login";
-import { getSettings } from "../pages/settings/settings";
-import { getErrorPage } from "../pages/errorpage/errorpage";
-import { getSignup } from "../pages/signup/signup";
+import { getChatRow } from "./components/chatrow/chatrow";
+import { pagelist } from "./pages/pagelist/pagelist";
+import { getChatList } from "./pages/chatlist/chatlist";
+import { getLogin } from "./pages/login/login";
+import { getSettings } from "./pages/settings/settings";
+import { getErrorPage } from "./pages/errorpage/errorpage";
+import { getSignup } from "./pages/signup/signup";
 export const getPage = (url) => {
   switch (url) {
 

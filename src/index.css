@@ -1,16 +1,19 @@
 
 @import 'normalize.css';
-@import '../pages/pagelist/pagelist.css';
-
-@import '../components/chatrow/chatrow.css';
-@import '../components/messagerow/messagerow.css';
-@import '../components/input/input.css';
-@import '../components/button/button.css';
-@import '../pages/chatlist/chatlist.css';
-@import '../pages/login/login.css';
 @import '../static/fonts/inter/inter.css';
-@import '../pages/settings/settings.css';
-@import '../pages/errorpage/errorpage.css';
+
+
+@import './components/chatrow/chatrow.css';
+@import './components/messagerow/messagerow.css';
+@import './components/input/input.css';
+@import './components/button/button.css';
+
+@import './pages/pagelist/pagelist.css';
+@import './pages/chatlist/chatlist.css';
+@import './pages/login/login.css';
+
+@import './pages/settings/settings.css';
+@import './pages/errorpage/errorpage.css';
 
 *{
     box-sizing: content-box;
