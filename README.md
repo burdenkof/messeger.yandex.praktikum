@@ -1,5 +1,3 @@
-
-
 # [Yandex.Practicum PostDove messeger]
 
  Автор Бурденков Александр, первый спринт модуля "Messanger" для Yandex.Practicum.
