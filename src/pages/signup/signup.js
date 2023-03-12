@@ -8,8 +8,8 @@ export function getSignup() {
 
     const template = Handlebars.compile(signupTemplate)
 
-    let inputs = [];
-    let itemFirstName = {
+    const inputs = [];
+    const itemFirstName = {
         name: 'first_name',
         placeholder: 'Jonh',
         status: 'success',
@@ -20,7 +20,7 @@ export function getSignup() {
     itemFirstName.html = getinput(itemFirstName)
 
 
-    let itemSecondName = {
+    const itemSecondName = {
         name: 'second_name',
         placeholder: 'Smith',
         status: 'success',
@@ -31,7 +31,7 @@ export function getSignup() {
     itemSecondName.html = getinput(itemSecondName)
 
 
-    let itemDisplayName = {
+    const itemDisplayName = {
         name: 'display_name',
         placeholder: 'Jo',
         status: 'success',
@@ -41,7 +41,7 @@ export function getSignup() {
     }
     itemDisplayName.html = getinput(itemDisplayName)
 
-    let itemLogin = {
+    const itemLogin = {
         name: 'login',
         placeholder: 'Joker',
         status: 'success',
@@ -51,7 +51,7 @@ export function getSignup() {
     }
     itemLogin.html = getinput(itemLogin)
 
-    let itemEmail = {
+    const itemEmail = {
         name: 'email',
         placeholder: 'box@domain.com',
         status: 'error',
@@ -62,7 +62,7 @@ export function getSignup() {
     itemEmail.html = getinput(itemEmail)
 
 
-    let itemPhone = {
+    const itemPhone = {
         name: 'phone',
         placeholder: '+7 (927) 999-99-99',
         status: 'success',
@@ -72,7 +72,7 @@ export function getSignup() {
     }
     itemPhone.html = getinput(itemPhone)
 
-    let itemPassword = {
+    const itemPassword = {
         name: 'password',
         placeholder: '',
         status: 'success',
@@ -82,7 +82,7 @@ export function getSignup() {
     }
     itemPassword.html = getinput(itemPassword)
 
-    let itemPassword2 = {
+    const itemPassword2 = {
         name: 'password2',
         placeholder: '',
         status: 'error',
@@ -108,7 +108,7 @@ export function getSignup() {
 
     const templateBtn = Handlebars.compile(buttonTemplate)
 
-    let btnSignUp = templateBtn({
+    const btnSignUp = templateBtn({
         name: 'Sign Up',
         id: 'btn-sign-up',
         type: 'submit',

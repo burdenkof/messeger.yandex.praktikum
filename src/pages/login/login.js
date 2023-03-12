@@ -7,9 +7,9 @@ export function getLogin() {
 
     const template = Handlebars.compile(loginTemplate)
 
-    let inputs = [];
+    const inputs = [];
     //Авторизация (с формой, имена полей: login, password).  
-    let itemLogin = {
+    const itemLogin = {
         name: 'login',
         placeholder: 'phone or email',
         status: 'succcess',
@@ -19,7 +19,7 @@ export function getLogin() {
     }
     itemLogin.html = getinput(itemLogin)
 
-    let itemPassword = {
+    const itemPassword = {
         name: 'password',
         status: 'error',
         label: 'Password',
@@ -28,18 +28,19 @@ export function getLogin() {
         type: 'password'
     }
     itemPassword.html = getinput(itemPassword)
+
     inputs.push(itemLogin)
     inputs.push(itemPassword)
 
     const templateBtn = Handlebars.compile(buttonTemplate)
 
-    let btnSignIn = templateBtn({
+    const btnSignIn = templateBtn({
         name: 'Sign In',
         id: 'btn-sign-in',
         type: 'submit',
         onclick: ''
     })
-    let btnSignUp = templateBtn({
+    const btnSignUp = templateBtn({
         name: 'Sign Up',
         id: 'btn-sign-up',
         type: 'button',
