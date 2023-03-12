@@ -7,7 +7,7 @@ export function getErrorPage(code = 404, title = 'Page not found', message = 'We
     const template = Handlebars.compile(errorTemplate)
     return template({
         code: code,
-        message: message, 
+        message: message,
         title: title
     })
 }
