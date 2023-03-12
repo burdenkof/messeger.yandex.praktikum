@@ -9,7 +9,7 @@ export const  chatListTemplate =
         </ul>
     </aside>
     <div class="chat-list_messages-wrapper">
-         <div class="chat-list_message-list">
+        <div class="chat-list_message-list">
             {{#each messages}}
                 {{{html}}}
             {{/each}}
